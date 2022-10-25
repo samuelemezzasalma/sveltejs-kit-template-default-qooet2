@@ -1,7 +1,3 @@
-<script>
-	
-</script>
-
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
@@ -77,7 +73,7 @@
 		<div class="products cont-child cont">
 			<div class="product cont-child">
 				<div class="card text-bg-dark" >
-					<img class="card-img-top" src="https://i.pinimg.com/750x/9a/58/a9/9a58a9e3f9d24dcc7db56aaa5a5c8d77.jpg" alt="Card image cap">
+					<img class="card-img-top" src="https://i.pinimg.com/750x/9a/58/a9/9a58a9e3f9d24dcc7db56aaa5a5c8d77.jpg" alt="card 1">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -87,7 +83,7 @@
 			</div>
 			<div class="product cont-child">
 				<div class="card text-bg-dark" >
-					<img class="card-img-top" src="https://i.pinimg.com/564x/a6/ae/15/a6ae15f38a4196b43c8ca62d7f6884c2.jpg" alt="Card image cap">
+					<img class="card-img-top" src="https://i.pinimg.com/564x/a6/ae/15/a6ae15f38a4196b43c8ca62d7f6884c2.jpg" alt="card 2">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,7 +93,7 @@
 			</div>
 			<div class="product cont-child">
 				<div class="card text-bg-dark" >
-					<img class="card-img-top" src="https://i.pinimg.com/750x/cf/30/d5/cf30d582c83ce0e07d8e599b9dd4f586.jpg" alt="Card image cap">
+					<img class="card-img-top" src="https://i.pinimg.com/750x/cf/30/d5/cf30d582c83ce0e07d8e599b9dd4f586.jpg" alt="card 3">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

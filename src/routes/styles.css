@@ -18,7 +18,8 @@ h6 {
 } */
 
 body {
-	min-width: 500px; /* Suppose you want minimum width of 1000px */
+	min-width: 500px;
+	/* Suppose you want minimum width of 1000px */
 	margin: 0;
 	padding: 0;
 }
@@ -86,7 +87,7 @@ body {
 	filter: brightness(0.3) saturate(100%);
 }
 
-#header-img > * {
+#header-img>* {
 	width: auto;
 	height: calc(var(--header-before) - 6px);
 }
@@ -136,6 +137,7 @@ body {
 	min-width: 400px;
 	/* margin-top: 51px; */
 }
+
 .footer {
 	grid-area: footer;
 }
@@ -161,17 +163,18 @@ body {
 	align-items: center;
 }
 
-.hero > #form {
+.hero>#form {
 	text-align: center;
 }
 
-.hero > #form > input {
+.hero>#form>input {
 	width: 50%;
 }
 
 .values {
 	grid-area: values;
 }
+
 .video {
 	grid-area: video;
 	/* min-height: 315px;
@@ -183,6 +186,7 @@ body {
 	max-width: 560px;
 	width: 100%;
 }
+
 .products {
 	grid-area: products;
 	display: grid;
@@ -191,11 +195,12 @@ body {
 
 .card {
 	position: inherit;
+	border: none;
 }
 
 .card-img-top {
 	width: 100%;
-	height: 18rem;
+	height: 100%;
 	object-fit: cover;
 	border: none;
 }
@@ -231,7 +236,7 @@ body {
 		position: relative;
 	}
 
-	.header nav:hover > ul {
+	.header nav:hover>ul {
 		display: flex;
 		flex-direction: column;
 		height: auto;
@@ -255,6 +260,11 @@ body {
 		background-color: #2196f3;
 	}
 
+	.card-img-top {
+		/* width: 20%; */
+		height: 18rem;
+	}
+
 	.card {
 		display: flex;
 		flex-direction: row;
@@ -267,3 +277,11 @@ body {
 		align-items: center;
 	}
 }
+
+/* @media only screen and (min-width: 1000px) {
+	.card-img-top {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+} */
