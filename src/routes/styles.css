@@ -1,4 +1,25 @@
 :root {
+	/* --background: #fffffe;
+	--button: #6246ea;
+	--headline: #2b2c34;
+	--button-text: #fffffe;
+	--paragraph: #2b2c34;
+	
+	--card-background: #d1d1e9;
+	--card-heading: var(--headline);
+	--card-tag-background: #6246ea;
+
+	*/
+
+	--background: #d1d1e9;
+	--headline: #2b2c34;
+	--paragraph: #2b2c34;
+	--link: #6246ea;
+	--card-backgroud: #fffffe;
+	--card-headline: #2b2c34;
+	--card-paragraph: #2b2c34;
+
+
 	--header-height: 150px;
 	--header-before: calc(var(--header-height) - 4px);
 }
@@ -26,12 +47,13 @@ body {
 
 .cont {
 	gap: 10px;
-	background-color: #2196f3;
+	/* background-color: #2196f3; */
+	background-color: var(--background);
 	padding: 10px;
 }
 
 .cont-child {
-	background-color: rgba(255, 255, 255, 0.8);
+	/* background-color: rgba(255, 255, 255, 0.8); */
 	/* font-size: 30px; */
 	text-align: center;
 }
@@ -47,6 +69,8 @@ body {
 
 .header {
 	grid-area: header;
+	/* width: 100%; */
+	z-index: 1;
 	display: grid;
 	grid-template-areas:
 		'main-title logo nav'
@@ -127,10 +151,12 @@ body {
 
 .main {
 	grid-area: main;
+	/* margin-top: var(--header-height); */
 	display: grid;
 	grid-template-columns: 0.3fr repeat(4, 1fr) 0.3fr;
 	grid-template-areas:
-		'. values values values hero .'
+		'. values values values values .'
+		'. video video video hero .'
 		'. video video video hero .'
 		'. products products products products .';
 	justify-content: center;
@@ -160,15 +186,34 @@ body {
 	grid-area: form;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
-.hero>#form {
+#form {
 	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .hero>#form>input {
-	width: 50%;
+	background-color: #fffffe;
+	border-color: #fffffe;
+	color: #2b2c34;
+}
+
+input[type="submit"] {
+	height: 2.5rem;
+	border-radius: 3px;
+	background-color: #fff;
+	color: #1f1235;
+	font-weight: 700;
+	border: 0;
+}
+
+#submit {
+	background-color: #6246ea;
+	color: #fffffe;
 }
 
 .values {
@@ -196,6 +241,23 @@ body {
 .card {
 	position: inherit;
 	border: none;
+	background-color: var(--card-backgroud);
+}
+
+.card:hover {
+	box-shadow: 0 5px 15px -10px #000;
+	/* transform: translate(0px, -4px, -1rem); */
+	translate: 0px -4px 0;
+	position: inherit;
+	cursor: pointer;
+}
+
+.card-title {
+	color: var(--card-headline);
+}
+
+.card-text {
+	color: var(--card-paragraph);
 }
 
 .card-img-top {
