@@ -107,11 +107,9 @@
 			</div>
 			<div class="footer-col">
 				<h3>Find me</h3>
-				<a>Web</a>
-				<a>YouTube</a>
-				<a>Instagram</a>
-				<a>Twitter</a>
-				<a>Webflow</a>
+				<a href="https://www.youtube.com/" >YouTube</a>
+				<a href="https://www.instagram.com/" >Instagram</a>
+				<a href="https://twitter.com/" >Twitter</a>
 			</div>
 		</div>
 		<div class="footer-copyright">
