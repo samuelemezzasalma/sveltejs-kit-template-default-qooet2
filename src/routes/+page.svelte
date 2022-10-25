@@ -39,36 +39,35 @@
 		</nav>
 	</div>
   <div class="main cont cont-child">
-		<div class="hero cont-child">
-			<div class="suggestion">
-				<figure>
-					<blockquote>
-						<p>Subscribe and get a ton of benefits</p>
-					</blockquote>
-				</figure>
-			</div>
-			<div class="form">
-				<h4>Login</h4>
-				<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-					<input type="email" name="email" id="email"
-						placeholder="Enter your email address" required>
-					<input id="submit" type="submit" value="Get started">
-				</form>
-			</div>
-		</div>
 		<div class="values cont-child">
-		<figure>
-			<blockquote>
-				<p>“Make your road by walking it”</p>
-			</blockquote>
-			<figcaption><i>Real streetwear</i></figcaption>
-		</figure>
+			<figure>
+				<blockquote>
+					<p>“Make your road by walking it”</p>
+				</blockquote>
+				<figcaption><i>Real streetwear</i></figcaption>
+			</figure>
 		</div>
-		<div class="video cont-child">
-		<!-- width="560" height="315" -->
-		<iframe src="https://www.youtube-nocookie.com/embed/2nyGHu5to0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<!-- <iframe src="https://www.youtube-nocookie.com/embed/GKn6Flv6RJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-			<!-- <iframe src="https://www.youtube-nocookie.com/embed/JOQbJjbHHPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+		<div class="hero-container cont">
+			<div class="hero cont-child cont">
+				<div class="suggestion">
+					<figure>
+						<blockquote>
+							<p>Subscribe and get a ton of benefits</p>
+						</blockquote>
+					</figure>
+				</div>
+				<div class="form">
+					<h4>Login</h4>
+					<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+						<input type="email" name="email" id="email"
+							placeholder="Enter your email address" required>
+						<input id="submit" type="submit" value="Get started">
+					</form>
+				</div>
+			</div>
+			<div class="video cont-child">
+				<iframe src="https://www.youtube-nocookie.com/embed/2nyGHu5to0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 		</div>
 		<div class="products cont-child cont">
 			<div class="product cont-child">
@@ -101,7 +100,24 @@
 			</div>
 		</div>
 	</div>  
-  <div class="footer cont-child"><p>Footer</p></div>
+  <div class="footer cont-child">
+		<div class="footer-wrap">
+			<div class="footer-main">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="footer-col">
+				<h3>Find me</h3>
+				<a>Web</a>
+				<a>YouTube</a>
+				<a>Instagram</a>
+				<a>Twitter</a>
+				<a>Webflow</a>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<p>©2022 Samuele Mezzasalma. All Rights Reserved.</p>
+		</div>
+	</div>
 </div>
 
 
