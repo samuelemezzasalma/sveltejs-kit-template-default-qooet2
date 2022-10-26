@@ -27,9 +27,10 @@
 			
 		</div>	
 			<nav class="cont-child">
-			<span class="material-symbols-outlined">
+				<span class="material-symbols-outlined">D</span>
+			<!-- <span class="”material-symbols-outlined">
 				Menu
-			</span>
+			</span> -->
 				<ul>
 					<li><a class="nav-link" href="#form">Form</a></li>
 					<li><a class="nav-link" href="#values">Values</a></li>

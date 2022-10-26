@@ -40,6 +40,10 @@ h6 {
 	padding: 0;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	min-width: 500px;
 	/* Suppose you want minimum width of 1000px */
@@ -72,10 +76,10 @@ body {
 	/* width: 100%; */
 	z-index: 1;
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: 0.3fr repeat(4, 1fr) 0.3fr;
 	grid-template-areas:
-		'main-title main-title logo logo nav nav'
-		'main-title main-title logo logo nav nav';
+		'. main-title logo logo nav .'
+		'. main-title logo logo nav .';
 	justify-content: space-between;
 	position: sticky;
 	top: 0;
@@ -101,6 +105,7 @@ body {
 .header-center-block {
 	grid-area: logo;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -127,6 +132,10 @@ body {
 }
 
 .material-symbols-outlined {
+	font-family: "Anicons Regular", sans-serif;
+	/* font-family: "Anicons Color", sans-serif; */
+	font-variation-settings: "TIME" 1;
+  transition: font-variation-settings 0.4s ease;
 	display: none;
 }
 
@@ -382,12 +391,13 @@ input[type="submit"] {
 
 	.material-symbols-outlined {
 		display: block;
+		font-size: 26px;
 	}
 
 	.header {
 		grid-template-areas:
-		'main-title main-title main-title logo logo nav'
-		'main-title main-title main-title logo logo nav';
+		'main-title logo logo logo logo nav'
+		'main-title logo logo logo logo nav';
 	}
 
 	.header ul {
@@ -402,7 +412,7 @@ input[type="submit"] {
 		position: relative;
 	}
 
-	.header nav:hover>ul {
+	.header nav:hover > ul {
 		display: flex;
 		flex-direction: column;
 		height: auto;
@@ -412,6 +422,10 @@ input[type="submit"] {
 		right: 0;
 		background-color: #d3eafc;
 		border: 1px solid black;
+	}
+
+	.header nav:hover > .material-symbols-outlined {
+		font-variation-settings: "TIME" 100;
 	}
 
 	.header li {
