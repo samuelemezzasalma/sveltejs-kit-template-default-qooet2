@@ -1,3 +1,12 @@
+<script>
+	function handleClick(el) {
+		if(window.innerWidth < 700) {
+			document.querySelector("nav").classList.remove("hover");
+		}
+	}
+
+</script>
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
@@ -32,10 +41,10 @@
 				Menu
 			</span> -->
 				<ul>
-					<li><a class="nav-link" href="#form">Form</a></li>
-					<li><a class="nav-link" href="#values">Values</a></li>
-					<li><a class="nav-link" href="#demo">Demo</a></li>
-					<li><a class="nav-link" href="#footer">Footer</a></li>
+					<li><a class="nav-link" on:click={handleClick} href="#form">Form</a></li>
+					<li><a class="nav-link" on:click={handleClick} href="#values">Values</a></li>
+					<li><a class="nav-link" on:click={handleClick} href="#demo">Demo</a></li>
+					<li><a class="nav-link" on:click={handleClick} href="#footer">Footer</a></li>
 				</ul>
 		</nav>
 	</div>
