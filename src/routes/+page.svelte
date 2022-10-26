@@ -39,38 +39,38 @@
 		</nav>
 	</div>
   <div class="main cont cont-child">
-		<div class="values cont-child">
+		<section class="values cont-child">
 			<figure>
 				<blockquote>
 					<p>“Make your road by walking it”</p>
 				</blockquote>
 				<figcaption><i>Real streetwear</i></figcaption>
 			</figure>
-		</div>
+		</section>
 		<div class="hero-container cont">
 			<div class="hero cont-child cont">
-				<div class="suggestion">
+				<section class="suggestion">
 					<figure>
 						<blockquote>
 							<p>Subscribe and get a ton of benefits</p>
 						</blockquote>
 					</figure>
-				</div>
-				<div class="form">
+				</section>
+				<section class="form">
 					<h4>Login</h4>
 					<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
 						<input type="email" name="email" id="email"
 							placeholder="Enter your email address" required>
 						<input id="submit" type="submit" value="Get started">
 					</form>
-				</div>
+				</section>
 			</div>
-			<div class="video cont-child">
+			<section class="video cont-child">
 				<iframe src="https://www.youtube-nocookie.com/embed/2nyGHu5to0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+			</section>
 		</div>
-		<div class="products cont-child cont">
-			<div class="product cont-child">
+		<section class="products cont-child cont">
+			<article class="product cont-child">
 				<div class="card" >
 					<img class="card-img-top" src="https://i.pinimg.com/750x/9a/58/a9/9a58a9e3f9d24dcc7db56aaa5a5c8d77.jpg" alt="card 1">
 					<div class="card-body">
@@ -78,9 +78,9 @@
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
-			</div>
+			</article>
 			<!-- text-bg-dark -->
-			<div class="product cont-child">
+			<article class="product cont-child">
 				<div class="card" >
 					<img class="card-img-top" src="https://i.pinimg.com/564x/a6/ae/15/a6ae15f38a4196b43c8ca62d7f6884c2.jpg" alt="card 2">
 					<div class="card-body">
@@ -88,8 +88,8 @@
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
-			</div>
-			<div class="product cont-child">
+			</article>
+			<article class="product cont-child">
 				<div class="card" >
 					<img class="card-img-top" src="https://i.pinimg.com/750x/cf/30/d5/cf30d582c83ce0e07d8e599b9dd4f586.jpg" alt="card 3">
 					<div class="card-body">
@@ -97,25 +97,25 @@
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
-			</div>
-		</div>
+			</article>
+		</section>
 	</div>  
-  <div class="footer cont-child">
+  <section class="footer cont-child">
 		<div class="footer-wrap">
-			<div class="footer-main">
+			<section class="footer-main">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-			</div>
-			<div class="footer-col">
+			</section>
+			<section class="footer-col">
 				<h3>Find me</h3>
 				<a href="https://www.youtube.com/" >YouTube</a>
 				<a href="https://www.instagram.com/" >Instagram</a>
 				<a href="https://twitter.com/" >Twitter</a>
-			</div>
+			</section>
 		</div>
-		<div class="footer-copyright">
+		<section class="footer-copyright">
 			<p>©2022 Samuele Mezzasalma. All Rights Reserved.</p>
-		</div>
-	</div>
+		</section>
+	</section>
 </div>
 
 
