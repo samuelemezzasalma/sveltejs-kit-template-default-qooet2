@@ -1,8 +1,14 @@
 <script>
-	function handleClick(el) {
-		if(window.innerWidth < 700) {
-			document.querySelector("nav").classList.remove("hover");
+
+	function openMenu() {
+		if (!document?.querySelector(".material-symbols-outlined")?.classList.contains("hover")) {
+			document?.querySelector(".material-symbols-outlined")?.classList.add("hover");
+			document?.querySelector(".header nav > ul")?.classList.add("hover");
+		} else {
+			document?.querySelector(".material-symbols-outlined")?.classList.remove("hover");
+			document?.querySelector(".header nav > ul")?.classList.remove("hover");
 		}
+		
 	}
 
 </script>
@@ -36,15 +42,15 @@
 			
 		</div>	
 			<nav class="cont-child">
-				<span class="material-symbols-outlined">D</span>
+				<span class="material-symbols-outlined" on:click={openMenu} aria-hidden="true">A</span>
 			<!-- <span class="”material-symbols-outlined">
 				Menu
 			</span> -->
 				<ul>
-					<li><a class="nav-link" on:click={handleClick} href="#form">Form</a></li>
-					<li><a class="nav-link" on:click={handleClick} href="#values">Values</a></li>
-					<li><a class="nav-link" on:click={handleClick} href="#demo">Demo</a></li>
-					<li><a class="nav-link" on:click={handleClick} href="#footer">Footer</a></li>
+					<li><a class="nav-link" href="#form">Form</a></li>
+					<li><a class="nav-link" href="#values">Values</a></li>
+					<li><a class="nav-link" href="#demo">Demo</a></li>
+					<li><a class="nav-link" href="#footer">Footer</a></li>
 				</ul>
 		</nav>
 	</div>

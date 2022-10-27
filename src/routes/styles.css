@@ -412,7 +412,19 @@ input[type="submit"] {
 		position: relative;
 	}
 
-	.header nav:hover > ul {
+	/* .header nav:hover > ul {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		z-index: 1000;
+		position: absolute;
+		left: -100px;
+		right: 0;
+		background-color: #d3eafc;
+		border: 1px solid black;
+	} */
+
+	.header nav > ul.hover {
 		display: flex;
 		flex-direction: column;
 		height: auto;
@@ -424,7 +436,11 @@ input[type="submit"] {
 		border: 1px solid black;
 	}
 
-	.header nav:hover > .material-symbols-outlined {
+	/* .header nav:hover > .material-symbols-outlined {
+		font-variation-settings: "TIME" 100;
+	} */
+
+	.material-symbols-outlined.hover {
 		font-variation-settings: "TIME" 100;
 	}
 
