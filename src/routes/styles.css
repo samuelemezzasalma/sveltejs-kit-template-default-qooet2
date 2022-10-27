@@ -30,18 +30,43 @@
 	box-sizing: border-box;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-	padding: 0;
-} */
-
 html {
   scroll-behavior: smooth;
+	font-size: 100%
+}
+
+article {
+	font-size: 1rem;
+}
+
+article h1 {
+	font-size: 2.5em;
+	line-height: calc(1ex / 0.42);
+	margin: calc(1ex / 0.42) 0;
+}
+
+article h2 {
+	font-size: 2em;
+	line-height: calc(1ex / 0.42);
+	margin: calc(1ex / 0.42) 0;
+}
+
+article h3 {
+	font-size: 1.75em;
+	line-height: calc(1ex / 0.38);
+	margin: calc(1ex / 0.38) 0;
+}
+
+article h4 {
+	font-size: 1.5em;
+	line-height: calc(1ex / 0.37);
+	margin: calc(1ex / 0.37) 0;
+}
+
+article p {
+	font-size: 1em;
+	line-height: calc(1ex / 0.32);
+	margin: calc(1ex / 0.32) 0;
 }
 
 body {
@@ -133,7 +158,6 @@ body {
 
 .material-symbols-outlined {
 	font-family: "Anicons Regular", sans-serif;
-	/* font-family: "Anicons Color", sans-serif; */
 	font-variation-settings: "TIME" 1;
   transition: font-variation-settings 0.4s ease;
 	display: none;
@@ -155,7 +179,7 @@ body {
 .header a {
 	text-decoration: none;
 	color: black;
-	font-size: 18px;
+	/* font-size: 18px; */
 }
 
 .header a:hover {
@@ -391,7 +415,7 @@ input[type="submit"] {
 
 	.material-symbols-outlined {
 		display: block;
-		font-size: 26px;
+		font-size: 1rem;
 	}
 
 	.header {
