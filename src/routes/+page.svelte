@@ -47,9 +47,8 @@
 				Menu
 			</span> -->
 				<ul>
-					<li><a href="#form">Form</a></li>
 					<li><a href="#values">Values</a></li>
-					<li><a href="#demo">Demo</a></li>
+					<li><a href="#form">Login</a></li>
 					<li><a href="#footer">Footer</a></li>
 				</ul>
 		</nav>
