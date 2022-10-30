@@ -63,61 +63,33 @@ p {
 /* Font size variables */
 h1 {
 	--min: 2rem;
-	--val: 5vw;
+	--val: 2.5;
 	--max: 3rem;
 	line-height: calc(1ex / 0.42);
+	font-weight: bolder;
+	letter-spacing: 0.04rem;
 }
 
 h2 {
 	--min: 1.5rem;
-	--val: 4vw;
+	--val: 1.9;
 	--max: 2.25rem;
 	line-height: calc(1ex / 0.42);
 }
 
 h3 {
 	--min: 1.2rem;
-	--val: 3vw;
+	--val: 1.46rem;
 	--max: 1.75rem;
 	line-height: calc(1ex / 0.38);
 }
 
 p, a {
 	--min: 1rem;
-	--val: 2.5vw;
+	--val: 1.25rem;
 	--max: 1.5rem;
 	line-height: calc(1ex / 0.32);
 }
-
-/* article h1 {
-	font-size: 2.5em;
-	line-height: calc(1ex / 0.42);
-	margin: calc(1ex / 0.42) 0;
-}
-
-article h2 {
-	font-size: 2em;
-	line-height: calc(1ex / 0.42);
-	margin: calc(1ex / 0.42) 0;
-}
-
-article h3 {
-	font-size: 1.75em;
-	line-height: calc(1ex / 0.38);
-	margin: calc(1ex / 0.38) 0;
-}
-
-article h4 {
-	font-size: 1.5em;
-	line-height: calc(1ex / 0.37);
-	margin: calc(1ex / 0.37) 0;
-}
-
-article p {
-	font-size: 1em;
-	line-height: calc(1ex / 0.32);
-	margin: calc(1ex / 0.32) 0;
-} */
 
 body {
 	min-width: 500px;
