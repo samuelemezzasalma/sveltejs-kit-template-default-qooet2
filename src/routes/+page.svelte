@@ -47,10 +47,10 @@
 				Menu
 			</span> -->
 				<ul>
-					<li><a class="nav-link" href="#form">Form</a></li>
-					<li><a class="nav-link" href="#values">Values</a></li>
-					<li><a class="nav-link" href="#demo">Demo</a></li>
-					<li><a class="nav-link" href="#footer">Footer</a></li>
+					<li><a href="#form">Form</a></li>
+					<li><a href="#values">Values</a></li>
+					<li><a href="#demo">Demo</a></li>
+					<li><a href="#footer">Footer</a></li>
 				</ul>
 		</nav>
 	</div>
@@ -58,7 +58,7 @@
 		<section class="values cont-child">
 			<figure>
 				<blockquote>
-					<p>“Make your road by walking it”</p>
+					<h2>Make your road by walking it</h2>
 				</blockquote>
 				<figcaption><i>Real streetwear</i></figcaption>
 			</figure>
@@ -66,14 +66,10 @@
 		<div class="hero-container cont">
 			<div class="hero cont-child cont">
 				<section class="suggestion">
-					<figure>
-						<blockquote>
-							<p>Subscribe and get a ton of benefits</p>
-						</blockquote>
-					</figure>
+					<h3>Subscribe and get a ton of benefits!</h3>
 				</section>
 				<section class="form">
-					<h4>Login</h4>
+					<p>Login</p>
 					<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
 						<input type="email" name="email" id="email"
 							placeholder="Enter your email address" required>
@@ -90,7 +86,7 @@
 				<div class="card" >
 					<img class="card-img-top" src="https://i.pinimg.com/750x/9a/58/a9/9a58a9e3f9d24dcc7db56aaa5a5c8d77.jpg" alt="card 1">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h3 class="card-title">Card title</h3>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
@@ -100,7 +96,7 @@
 				<div class="card" >
 					<img class="card-img-top" src="https://i.pinimg.com/564x/a6/ae/15/a6ae15f38a4196b43c8ca62d7f6884c2.jpg" alt="card 2">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h3 class="card-title">Card title</h3>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
@@ -109,7 +105,7 @@
 				<div class="card" >
 					<img class="card-img-top" src="https://i.pinimg.com/750x/cf/30/d5/cf30d582c83ce0e07d8e599b9dd4f586.jpg" alt="card 3">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h3 class="card-title">Card title</h3>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
